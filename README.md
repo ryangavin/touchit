@@ -29,7 +29,6 @@ Configuring touchit is done via a json file. See config.json.example for an exam
 
 
 # Usage
-## Options
 ```
 touchit.py [-h] [--config [CONFIG]] links [links ...]
 
@@ -44,7 +43,7 @@ optional arguments:
 
 ```
 
-##Example invocation:
+# Example invocation:
 ```commandline
 python /path/to/touchit.py --config /path/to/config.json https://reddit.com/link/to/upvote
 ```
