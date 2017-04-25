@@ -1,12 +1,17 @@
 {
   "accounts": [
     {
-      "username": "touchmybuttdev",
-      "password": "reddit1296XDXPn700ms",
-      "proxy": "intercou:ubUPeDUpY@23.244.172.133:18017"
+      "username": "throwaway1",
+      "password": "password1",
+      "proxy": "username:password@host:port"
+    },
+    {
+      "username": "throwaway2",
+      "password": "password2",
+      "proxy": "username:password@host:port"
     }
   ],
-  "clientId": "k330OAtVFcKAHg",
-  "clientSecret": "mlvXmABNuDqEvgyTc_2dKMihVBE",
-  "upvotePercentage": 100
+  "clientId": "your-client-id",
+  "clientSecret": "your-client-secret",
+  "upvotePercentage": 95
 }
