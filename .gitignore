@@ -2,3 +2,6 @@
 *.iml
 env
 config.json
+build
+dist
+*.egg-info
