@@ -7,5 +7,5 @@ setup(name='voteit',
       author='Ryan Gavin',
       author_email='ryan.michael.gavin@gmail.com',
       license='MIT',
-      packages=['voteit'],
+      packages=['touchit'],
       zip_safe=False)

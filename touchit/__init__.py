@@ -56,11 +56,20 @@ for link in args.links:
 
         # Upvote the link
         if should_upvote():
-            print "User %s upvoting" % account['username']
+            print "User %s upvoting target" % account['username']
             submission.upvote()
         else:
-            print "User %s downvoting" % account['username']
+            print "User %s downvoting target" % account['username']
             submission.downvote()
 
         # Wait a random amount of time
         random_wait()
+
+        # Vote on something from /r/all to seem more real
+        for submission in reddit.subreddit('all').hot(limit=1):
+            print "User %s voting on hottest post in /r/all" % account['username']
+            if should_upvote():
+                submission.upvote()
+            else:
+                submission.downvote()
+
