@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='voteit',
+setup(name='touchit',
       version='1.0',
       description='Upvotes a target submission using configured accounts and proxies',
       url='http://github.com/rgavin/voteit',
